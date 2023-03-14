@@ -1,0 +1,205 @@
+:root {
+    --darkBLue:#160094;
+    --darkYellow: #E09600;
+    --boxShadow: rgb(255, 234,48);
+    --white: rgb(138, 126, 126) ;
+    --lightBlue: #034DA3;
+}
+
+.container {
+	background-color: var(--darkBLue);
+    min-height: 100vh;
+
+}
+.container, footer {
+	text-align: justify-all;
+	min-width: 100vh;
+
+}
+
+.container-main,
+footer {
+    width: 70%;
+    margin: 0 10%;
+    padding: 2.0% 5%;
+    padding-top: 6%;
+    flex-direction: column;
+    display: flex;
+}
+
+footer {
+    background-color: var(--darkYellow);
+    height: 15px;
+}
+
+footer p {
+    line-height: 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 17px;
+    color: var(--darkBLue);
+    font-weight: 400;
+}
+
+
+.landingP {
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Images/landing2.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    
+}
+
+hr {
+    border:none;
+    border-top:5px dotted white;
+    width:100%;
+}
+
+body {
+    font-family: "Roboto consendend", sans-serif;
+    color: white;
+    font-size: 16px;
+
+}
+
+
+.photo1{
+	margin: 0 auto;
+    border-radius: 30px;
+    height: 280px;
+    background-position: center;
+    background-repeat: repeat;
+    
+    width: 700px;
+    box-shadow: 3px 3px 70px -2px var(--boxShadow);
+    display: flex;
+}
+
+.photo2 {
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 700px;
+    box-shadow: 3px 3px 70px -2px var(--boxShadow);
+    display:flex;
+}
+
+
+.photos a {
+    color: #492a1c;
+    display: flex;
+    justify-content: center;
+    line-height: 60px;
+
+}
+
+.container a {
+    color: var(--white);
+}
+
+.photo1 {
+    background-image: url(../Images/obrazek.jpg);
+}
+
+.photo2 {
+    background-image: url(../Images/sklad.jpg);
+}
+
+.list {
+    display: flex;
+    height: 250px;
+}
+
+.list ul,
+.list ol {
+    padding: 2% 5%;
+    margin: 2%;
+    width: 36%;
+    background-color: var(--lightBlue);
+    border-radius: 10px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.table {
+    background-color: var(--lightBlue);
+    border-radius: 20px;
+    padding: 20px 0 30px;
+    margin: 0 auto;
+    text-align: center;
+    width: 96%;
+}
+
+.table table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+.table th,
+.table td {
+    border: 1px solid white;
+    padding: 15px 0;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: white;
+    font-style: italic;
+}
+
+a:focus {
+    color: orange;
+}
+
+
+.landingC {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 16%;
+    color:var(--darkBLue);
+    
+}
+
+.landingC h1 {
+    font-size: 3rem;
+    margin: 0;
+    line-height: 960px;
+    text-align: center;
+}
+
+.landingC button {
+   width: 20%;
+    height: 40px;
+    margin-top: -330px;
+    font-weight: bold;
+    border:solid;
+    color: black;
+    font-size: 20px;
+    background-color: var(--darkYellow);
+}
+
+.landingC button:hover {
+    color: red;
+    cursor: pointer;
+    background-color: var(--darkBLue);
+}
+
+
+  

@@ -1,0 +1,44 @@
+:root {
+    --darkBLue:#160094;
+    --darkYellow: #E09600;
+    --boxShadow: rgb(255, 234,48);
+    --white: rgb(138, 126, 126) ;
+    --lightBlue: #034DA3;
+}
+
+.side-menu-container,
+.side-menu,
+.side-menu a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+}
+
+.side-menu a {
+    cursor: pointer;
+    margin: 5px 0px;
+    height: 40px;
+    background-color: var(--darkYellow);
+    color: var(--darkBLue);
+}
+.side-menu-container {
+    position: fixed;
+    height: 100vh;
+    z-index: 5;
+    left: 0px;
+    opacity: 0;
+    transition: .4s;
+    
+}
+.side-menu a:hover {
+    color: red;
+}
+.side-menu a:focus {
+    color:blue;
+}
+
+.cool {
+    opacity: 1;
+}
