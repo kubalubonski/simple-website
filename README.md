@@ -1,1 +1,1 @@
-# simple website about FC Barcelona
+Simple website about FC Barcelona.
